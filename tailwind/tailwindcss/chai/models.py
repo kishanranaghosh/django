@@ -14,4 +14,5 @@ class ChaiVarity(models.Model):
     date_added = models.DateTimeField(default=timezone.now)
     chai_type = models.CharField(max_length=2, choices=CHAI_TYPE_CHOICE)
     
-
+    def __str__(self):
+        return super().__str__() + " " + self.name
