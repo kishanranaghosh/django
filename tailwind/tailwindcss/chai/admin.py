@@ -12,8 +12,8 @@ class ChaiVarityAdmin(admin.ModelAdmin):
 
 class ChaiCertificateAdmin(admin.ModelAdmin):
     list_display = ('chai', 'user', 'quantity', 'date_added')
-    
-admin.site.register(ChaiVarity)
-admin.site.register(ChaiReview)
+
+admin.site.register(ChaiVarity, )
+admin.site.register(ChaiReview, )
 admin.site.register(ChaiOrder)
-admin.site.register(ChaiCart)
+admin.site.register(ChaiCart, )
