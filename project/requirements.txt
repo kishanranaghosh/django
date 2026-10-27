@@ -1,0 +1,4 @@
+asgiref==3.13.0
+django==6.1.2
+-e file:///Users/kishan/Desktop/django/project
+sqlparse==0.6.0
